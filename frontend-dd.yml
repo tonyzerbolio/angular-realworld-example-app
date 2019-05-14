@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: client
-        image: "paruff/client"
+        image: "tonyzerbolio/angular-conduit"
         lifecycle:
           preStop:
             exec:
